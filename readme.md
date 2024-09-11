@@ -9,6 +9,10 @@ conda activate project3_front
 ```
 
 # faster rcnn을 위한 detectron2 설치
+```bash
+혹시 numpy 문제가 발생하면 가상환경에서 numpy를 다운그레이드 해볼 것
+conda install numpy=1.24.3 
+```
 
 Window에서 설치했을 때, Error 발생시
 ```bash
