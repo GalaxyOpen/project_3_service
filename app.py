@@ -1,3 +1,8 @@
+# import os
+
+# # OpenMP 비활성화 설정 (중복 로딩 허용)
+# os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+
 # app.py
 import streamlit as st
 import requests

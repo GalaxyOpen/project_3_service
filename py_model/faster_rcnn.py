@@ -1,3 +1,8 @@
+import os
+
+# OpenMP 비활성화 설정 (중복 로딩 허용)
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+
 import time
 import numpy as np
 from PIL import Image
@@ -27,7 +32,10 @@ def rcnn_out(image: Image.Image):
     cfg.INPUT.MAX_SIZE_TEST = 512
     cfg.MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE = 128
     cfg.MODEL.ROI_HEADS.NUM_CLASSES = 4
-    
+
+    # GPU 대신 CPU 사용 설정 추가
+    cfg.MODEL.DEVICE = "cpu"  # CUDA 대신 CPU를 사용하도록 설정(gpu가 없는 경우)
+
     # 이미지를 numpy 배열로 변환
     image = np.array(image)
     # 예측기를 설정
