@@ -1,0 +1,2 @@
+Detected Labels: [2], ['공포']
+output: {'instances': Instances(num_instances=1, image_height=700, image_width=1400, fields=[pred_boxes: Boxes(tensor([[ 757.6423,  117.4486, 1011.1442,  430.4081]])), scores: tensor([0.9373]), pred_classes: tensor([2])])}

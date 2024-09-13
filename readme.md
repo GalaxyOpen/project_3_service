@@ -52,5 +52,11 @@ streamlit 프론트 엔드
 ```bash
 streamlit run app.py
 ```
+
+sql 구문 대비
+```bash
+sql.sql
+```
 # 결과 이미지
 ![front_image](front_image.png)
+

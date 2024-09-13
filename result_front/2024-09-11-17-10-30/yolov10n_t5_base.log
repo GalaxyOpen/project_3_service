@@ -1,0 +1,1 @@
+model:yolov10n, lm:kogpt2, result:("['슬픔', '재킷']", 'Not Implemented')
