@@ -2,3 +2,6 @@ models
 __pycache__
 test_pics
 models/
+result/
+result_front/
+"models.zip" 
