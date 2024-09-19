@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # main.py
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException # HTTPException 추가 
 from fastapi.responses import JSONResponse
