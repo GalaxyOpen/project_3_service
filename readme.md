@@ -56,6 +56,8 @@ streamlit run app.py
 sql 구문 대비
 ```bash
 sql.sql
+
+pip install mysql-connector-python
 ```
 # 결과 이미지
 ![front_image](front_image.png)
