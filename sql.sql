@@ -2,11 +2,11 @@
 create user ai_third@localhost identified by '1234' ; -- 유저 생성
 drop user ai_third@localhost; -- 유저 삭제 
 
-create database db_ai_third; 
-drop database db_ai_third;
+create database db_ai_third; -- 데이터 베이스 생성
+drop database db_ai_third; -- 데이터 베이스 삭제
 
-use db_ai_third;
-grant all privileges on db_ai_third.* to user_ai_third@localhost;
+use db_ai_third; -- 데이터 베이스 사용하기 
+grant all privileges on db_ai_third.* to user_ai_third@localhost; -- 권한주기 
 
 -- 1. 테이블 생성 (댓글 저장용) 
 
