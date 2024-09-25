@@ -3,3 +3,5 @@ __pycache__
 test_pics
 models/
 detectron2
+result
+py_model
