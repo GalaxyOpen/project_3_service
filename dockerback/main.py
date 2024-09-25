@@ -15,7 +15,7 @@ app = FastAPI()
 # MySQL 연결 설정 : DB 연결 함수
 def get_db_connection():
     conn = mysql.connector.connect(
-        host="localhost",
+        host="116.39.189.253",
         user="ai_third",
         password="1234",
         database="db_ai_third"
