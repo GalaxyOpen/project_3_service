@@ -2,3 +2,4 @@ models
 __pycache__
 test_pics
 models/
+detectron2
